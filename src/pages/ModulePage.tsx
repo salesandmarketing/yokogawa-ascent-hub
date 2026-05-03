@@ -134,7 +134,7 @@ export default function ModulePage() {
                 <details className="text-sm">
                   <summary className="cursor-pointer font-medium">Show answer key</summary>
                   <ul className="mt-2 space-y-1 list-disc pl-5">
-                    <li>"Hi sir" — pick one: "Hi <name>" or "Dear sir,".</li>
+                    <li>{'"Hi sir" — pick one: "Hi <name>" or "Dear sir,".'}</li>
                     <li>"Kindly please be inform" → "Please be informed".</li>
                     <li>"is already done yesterday" → "was completed yesterday".</li>
                     <li>"revert back" → "revert" or "get back".</li>
