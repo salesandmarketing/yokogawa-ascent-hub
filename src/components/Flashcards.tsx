@@ -3,9 +3,9 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronLeft, ChevronRight, RotateCw } from "lucide-react";
 
-type Card = { term: string; def: string; example: string };
+type FlashCard = { term: string; def: string; example: string };
 
-export function Flashcards({ cards }: { cards: Card[] }) {
+export function Flashcards({ cards }: { cards: FlashCard[] }) {
   const [i, setI] = useState(0);
   const [flipped, setFlipped] = useState(false);
   const c = cards[i];
